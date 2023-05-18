@@ -5,17 +5,17 @@ const PersonalInformationComponent = () => {
     <div className='bg-gradient-to-br from-teal-100 to-blue-100 p-[40px]'>
       <h1 className='text-xl my-[8px] font-bold'>Personal Information</h1>
       <section className='flex gap-[10vw] flex-col lg:flex-row items-center'>
-        <div className='gap-[5px] bg-white rounded-lg shadow-blue-200 shadow-sm border px-[13px] flex items-center'>
-            <ul className='text-sm font-bold leading-loose'>
+        <div className='text-sm sm:text-base gap-[5px] bg-white rounded-lg shadow-blue-200 shadow-sm border px-[13px] flex items-center'>
+            <ul className='font-bold leading-loose'>
                 <li>FULL NAME :</li>
                 <li>DATE OF BIRTH :</li>
                 <li>EMAIL :</li>
                 <li>PHONE :</li>
             </ul>
-            <ul className='text-sm leading-loose'>
+            <ul className='leading-loose'>
                 <li>Sai Khay Khun</li>
                 <li>22<sup>nd</sup> May 2006</li>
-                <li className='underline'>khaykhun22052006@gmail.com</li>
+                <li className='underline text-[8px] sm:text-base'>khaykhun22052006@gmail.com</li>
                 <li className='underline'>+95 9421239656</li>
             </ul>
         </div>
