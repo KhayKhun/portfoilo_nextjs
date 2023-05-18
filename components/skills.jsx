@@ -7,7 +7,7 @@ const SkillsComponent = () => {
   return (
     <div className='flex flex-col items-center px-[40px]'>
       <h1 className='font-bold mt-[15px] mb-[60px]'>Skills I have learnt so far</h1>
-      <section className='grid grid-cols-3 gap-[15px] w-full'>
+      <section className='grid sm:grid-cols-3 gap-[15px] w-full'>
         <SkillCard color ="yellow" title="Front-end" Icon={BiDesktop} skills={
           [
             "Css animation",

@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic"
 import WelcomeComponent from "@/components/welcome"
 import PersonalInformationComponent from "@/components/personal"
 import SkillsComponent from "@/components/skills"

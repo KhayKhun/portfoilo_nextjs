@@ -8,7 +8,6 @@ async function fetchPj(){
       },
     });
     const data = await response.json();
-    console.log(data);
     return data;
 }
 
@@ -16,8 +15,8 @@ const ProjectsComponent = async () => {
     const data = await fetchPj();
 return (
     <div className='flex flex-col items-center'>
-      <h1 className='font-3xl font-bold mb-[20px]'>Projects I have done so far ~</h1>
-      <ul className='grid grid-cols-4 gap-[8px] w-full px-[40px]'>
+      <h1 className='text-md md:text-2xl lg:text-4xl font-bold mb-[20px]'>Projects I have done so far ~</h1>
+      <ul className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[8px] w-full px-[40px]'>
         {
             data.map(d => <ProjectCard key={d.main.id} data={d}/>)
         }

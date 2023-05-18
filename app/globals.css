@@ -11,3 +11,17 @@
 .me{
   border-radius:49% 51% 38% 62% / 46% 38% 62% 54% ;
 }
+.loading{
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+@keyframes loading{
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

@@ -4,7 +4,7 @@ const PersonalInformationComponent = () => {
   return (
     <div className='bg-gradient-to-br from-teal-100 to-blue-100 p-[40px]'>
       <h1 className='text-xl my-[8px] font-bold'>Personal Information</h1>
-      <section className='flex gap-[10vw]'>
+      <section className='flex gap-[10vw] flex-col lg:flex-row items-center'>
         <div className='gap-[5px] bg-white rounded-lg shadow-blue-200 shadow-sm border px-[13px] flex items-center'>
             <ul className='text-sm font-bold leading-loose'>
                 <li>FULL NAME :</li>
