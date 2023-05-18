@@ -4,7 +4,7 @@
             "id" : 1,
             "name" : "KyoeKalay",
             "slug" : "kyoekalay",
-            "description" : "Website for mental health care informations. Competed by Team Victory in Hub & Hacks 2023.",
+            "description" : "Team Victory competed in Hub & Hacks 2023 and created a website dedicated to providing information about mental health care.",
             "published" : true,
             "deployed" : "render"
         },
