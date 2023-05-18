@@ -2,13 +2,13 @@ import React from 'react'
 import ProjectCard from './cards/projectCard';
 
 async function fetchPj(){
-    const response = await fetch('/api/projects',{
+    const response = await fetch('http://127.0.0.1:3000/api/projects',{
       headers: {
         'Cache-Control': 'no-store',
       },
     });
     const data = await response.json();
-    // console.log(data);
+    console.log(data);
     return data;
 }
 
