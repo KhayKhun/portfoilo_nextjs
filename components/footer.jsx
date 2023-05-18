@@ -16,7 +16,7 @@ const FooterComponent = () => {
             </ul>
         </div>
         
-        <span className='text-[12px]'>2023 KhayKhun</span>
+        <span className='text-[12px] mt-[15px]'>KhayKhun with create-next-app</span>
         
     </div>
   )

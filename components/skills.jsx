@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiDatabase ,DiVisualstudio} from 'react-icons/di'
+import { DiDatabase,DiGithubBadge} from 'react-icons/di'
 import { BiDesktop} from 'react-icons/bi'
 import SkillCard from './cards/skillCard'
 
@@ -11,9 +11,9 @@ const SkillsComponent = () => {
         <SkillCard color ="yellow" title="Front-end" Icon={BiDesktop} skills={
           [
             "Css animation",
-            "Tailwindcss/Bootstrap",
+            "Tailwindcss / Bootstrap",
             "Javascript DOM",
-            "React/Redux",
+            "React / Redux",
             "Astrojs",
             "Markdown",
           ]
@@ -21,18 +21,20 @@ const SkillsComponent = () => {
         />
         <SkillCard color ="orange" title="Back-end" Icon={DiDatabase} skills={
           [
-            "Node.js/Express",
-            "Mongodb/Mongoose",
+            "Node.js / Express",
+            "Mongodb / Mongoose",
+            "Nextjs",
             "JWT Authentication",
-            "Cookie/Session Authentication"
+            "Cookie / Session Authentication"
           ]
         } 
          />
-        <SkillCard color ="teal" title="Other skills" Icon={DiVisualstudio} skills={
+        <SkillCard color ="teal" title="Other skills" Icon={DiGithubBadge} skills={
           [
+            "Git / Github",
+            "Vercel / Netlify / Render",
+            "UI / UX deisgn with Figma",
             "Photoshop",
-            "UI/UX deisgn with Figma",
-            "Git/Github",
           ]
         } 
         />
