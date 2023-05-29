@@ -12,6 +12,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZKLNHKL35"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QZKLNHKL35');
+      </script>
       <body className={`${MontserratFont.className} min-h-screen bg-gradient-to-bl from-white to-gray-200`}>
         <HeaderComponent/>
         <main className=''>
