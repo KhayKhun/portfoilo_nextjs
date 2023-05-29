@@ -11,11 +11,13 @@ export default async function Home() {
       strategy="afterInteractive"
       />
       <Script>
+        {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){window && window.dataLayer && dataLayer.push(arguments)}
         gtag('js', new Date());
 
         gtag('config', 'G-QZKLNHKL35');
+        `}
       </Script>
     <WelcomeComponent/>
     <PersonalInformationComponent/>
