@@ -8,7 +8,7 @@ const SkillCard = ({Icon,title,skills}) => {
         <Icon className={`w-[70%] h-auto mx-auto text-orange-500`}/>
       </div>
         <h1 className='font-bold'>{title}</h1>
-        <ul className='w-[80%]'>
+        <ul className='w-[80%] text-sm lg:text-base'>
           {
             skills.map(skill => <li key={skill} className='flex'><BiCaretRight className='text-green-500'/> {skill}</li>)
           }

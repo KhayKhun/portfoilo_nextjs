@@ -22,7 +22,7 @@ const ProjectCard = ({ data }) => {
       onMouseLeave={handleMouseLeave}
     >
       {/* Part-1 */}
-      <div ref={layerRef} className="relative z-20 p-[10px] flex flex-col gap-[10px] bg-orange-100 border-[1.5px] border-orange-400 shadow-sm shadow-orange-200 rounded-lg">
+      <div ref={layerRef} className="h-full relative z-20 p-[10px] flex flex-col gap-[10px] bg-orange-100 border-[1.5px] border-orange-400 shadow-sm shadow-orange-200 rounded-lg">
         <img src={links.image} className="w-full rounded-lg" />
         <span className='text-sm'>{main.description}</span>
       </div>

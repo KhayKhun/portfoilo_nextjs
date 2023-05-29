@@ -4,27 +4,8 @@
             "id" : 1,
             "name" : "KyoeKalay",
             "slug" : "kyoekalay",
-            "description" : "Website for mental health care informations. Compitatited by Team Victory in Hub & Hacks Competition.",
+            "description" : "Team Victory competed in Hub & Hacks 2023 and created a website dedicated to providing information about mental health care.",
             "published" : true,
-            "deployed" : "render"
-        },
-        "links" : {
-            "image" : "https://firebasestorage.googleapis.com/v0/b/my-portfolio-60826.appspot.com/o/kyoekalay.JPG?alt=media&token=0de715d4-8075-4a9b-8f23-483676f50e4e",
-            "repo" : "https://github.com/KhayKhun/kyoekalay",
-            "live" : "https://kyoekalay.onrender.com",
-            "techImageSrc" : [
-                "https://firebasestorage.googleapis.com/v0/b/my-portfolio-60826.appspot.com/o/astro.svg?alt=media&token=68f97c77-cb01-4096-9710-ef373a54ed6e",
-                "https://firebasestorage.googleapis.com/v0/b/my-portfolio-60826.appspot.com/o/tailwindcss-icon.svg?alt=media&token=5b234c5c-8070-44cf-9df6-d839f2739860"
-            ]
-        }
-    },
-    {
-        "main" : {
-            "id" : 2,
-            "name" : "KyoeKalay",
-            "slug" : "kyoekalay",
-            "description" : "Website for mental health care informations. Competed by Team Victory in Hub & Hacks 2023.",
-            "published" : false,
             "deployed" : "render"
         },
         "links" : {

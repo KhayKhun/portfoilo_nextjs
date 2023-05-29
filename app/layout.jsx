@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${MontserratFont.className} bg-gradient-to-bl from-white to-gray-200`}>
+      <body className={`${MontserratFont.className} min-h-screen bg-gradient-to-bl from-white to-gray-200`}>
         <HeaderComponent/>
         <main className=''>
         {children}
