@@ -7,7 +7,9 @@ export default async function Home() {
 
   return (
   <div className="">
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZKLNHKL35"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-QZKLNHKL35" 
+      strategy="afterInteractive"
+      />
       <Script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments)}
