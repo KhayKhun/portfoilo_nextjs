@@ -9,6 +9,7 @@ const HeaderComponent = () => {
             <h1 className='text-gray-500 hover:cursor-default hidden sm:flex'>&lt;<span className='text-green-500'> simple </span>&gt;</h1>
             <li><Link className='hover:scale-[1.3]' href="/">Home</Link></li>
             <li><Link href="/projects">My Projects</Link></li>
+            <li><Link href="/contant">Contant</Link></li>
         </ul>
         <ul className='flex gap-[10px]'>
             <a href="https://github.com/KhayKhun" target="_blank"><FaGithub className='icon text-blue-500'/></a>

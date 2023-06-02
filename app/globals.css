@@ -6,6 +6,9 @@
   .icon{
     @apply w-[18px] h-[28px]
   }
+  form{
+    @apply flex flex-col gap-[10px]
+  }
 }
 
 .me{
