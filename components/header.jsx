@@ -11,7 +11,7 @@ const HeaderComponent = () => {
             <li><Link href="/projects">My Projects</Link></li>
             <li><Link href="/contant">Contant</Link></li>
         </ul>
-        <ul className='flex gap-[10px]'>
+        <ul className='hidden sm:flex gap-[10px]'>
             <a href="https://github.com/KhayKhun" target="_blank"><FaGithub className='icon text-blue-500'/></a>
             <a href="https://www.facebook.com/profile.php?id=100072343315020" target="_blank"><FaFacebook className='icon text-blue-500'/></a>
             <a href="https://linkedin.com/in/khay-khun-4389b8255" target="_blank"><FaLinkedin className='icon text-blue-500'/></a>
