@@ -2,7 +2,7 @@ import React from 'react'
 import { Titillium_Web } from 'next/font/google'
 const Titillium = Titillium_Web({ subsets: ['latin'],weight : '700' })
 
-const myImage = "https://firebasestorage.googleapis.com/v0/b/my-portfolio-60826.appspot.com/o/me.png?alt=media&token=271c4ede-c74a-457c-9706-cb7012af01c4"
+const myImage = "https://firebasestorage.googleapis.com/v0/b/my-portfolio-60826.appspot.com/o/me.jpg?alt=media&token=990de279-655b-41b8-a849-341c9993680e"
 
 const WelcomeComponent = () => {
   return (
